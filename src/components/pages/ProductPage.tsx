@@ -1,5 +1,11 @@
+import GenericTemplate from "../templates/GenericTemplate"
+
 const ProductPage = () => {
-    return <h2>Product Page</h2>
+    return (
+        <GenericTemplate title="Product page">
+            <>Product page contents</>
+        </GenericTemplate>
+    )
 }
 
 export default ProductPage

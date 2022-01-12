@@ -1,5 +1,11 @@
+import GenericTemplate from "../templates/GenericTemplate"
+
 const HomePage = () => {
-    return <h2>Top Page</h2>
+    return (
+        <GenericTemplate title="Top page">
+            <>Top page contents</>
+        </GenericTemplate>
+    )
 }
 
 export default HomePage
